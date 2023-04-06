@@ -4,10 +4,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				lato: ['Lato', 'sans-serif'],
 				code: ['Source Code Pro', 'monospace'],
 				inter: ['Inter', 'sans-serif'],
-				ubuntu: ['Ubuntu', 'sans-serif'],
 			},
 
 			colors: {
