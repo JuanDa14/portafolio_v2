@@ -1,9 +1,13 @@
+import { useContext } from 'react';
 import { ToastContainer } from 'react-toastify';
 import { Footer, Header } from '../ui';
+import { UIContext } from '../../context';
 
 export const Layout: React.FunctionComponent<React.PropsWithChildren> = ({ children }) => {
+	const { isLoading } = useContext(UIContext);
+
 	return (
-		<div className={`flex flex-col`}>
+		<div className={`${isLoading ? 'hidden' : 'flex flex-col'}`}>
 			<Header />
 			<main className={`flex-grow`}>{children}</main>
 			<Footer />

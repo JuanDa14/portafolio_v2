@@ -1,13 +1,20 @@
-import { About, Contact, Hero, Layout, Project } from './components';
+import { useContext } from 'react';
+import { About, Contact, Hero, Layout, Loader, Project } from './components';
+import { UIContext } from './context';
 
 function App() {
+	const { isLoading } = useContext(UIContext);
+
 	return (
-		<Layout>
-			<Hero />
-			<About />
-			<Project />
-			<Contact />
-		</Layout>
+		<>
+			{isLoading && <Loader />}
+			<Layout>
+				<Hero />
+				<About />
+				<Project />
+				<Contact />
+			</Layout>
+		</>
 	);
 }
 

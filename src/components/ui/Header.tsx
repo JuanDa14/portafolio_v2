@@ -33,7 +33,10 @@ export const Header = () => {
 		>
 			{/* Escritorio */}
 			<div className='hidden py-1 px-5 md:px-0 mx-auto sm:flex justify-between items-center max-w-3xl'>
-				<a href='#inicio' className='text-black'>
+				<a
+					href='#inicio'
+					className='text-black hover:scale-110 transition-all duration-300 ease-in-out'
+				>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						fill='none'
