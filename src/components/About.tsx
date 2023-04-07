@@ -6,9 +6,9 @@ export const About = () => {
 	return (
 		<Fade triggerOnce className='py-10'>
 			<section className='px-5 md:px-3 max-w-3xl mx-auto text-black' id='conoceme'>
-				<h1 className='text-step-1 uppercase font-bold mb-4 border-b-2 border-gray-500 py-5'>
+				<h2 className='text-step-1 uppercase font-bold mb-4 border-b-2 border-gray-500 py-5'>
 					Sobre mí 👋
-				</h1>
+				</h2>
 				<div className='flex flex-col gap-10 justify-center items-center md:flex-row md:items-center mb-10 mt-10'>
 					<div>
 						<Lottie src='lottie/about.json' className='w-full h-full max-w-[200px]' />

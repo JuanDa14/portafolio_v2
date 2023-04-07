@@ -1,8 +1,7 @@
 import { Fade } from 'react-awesome-reveal';
 import { useForm } from '../hooks';
 import { InitialStateContactForm } from '../data';
-import { MyImage } from './ui';
-import { Player } from '@lottiefiles/react-lottie-player';
+import { Lottie } from './ui';
 
 export const Contact = () => {
 	const { handleInputChange, values, loading, onSubmit } = useForm(InitialStateContactForm);
@@ -78,7 +77,7 @@ export const Contact = () => {
 							</button>
 						</form>
 						<div>
-							<Player
+							<Lottie
 								className='hidden sm:flex w-full h-full max-w-sm'
 								autoplay
 								loop
