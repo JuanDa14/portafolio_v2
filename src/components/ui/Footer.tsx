@@ -3,7 +3,7 @@ export const Footer = () => {
 		<footer className='px-5 md:px-3 bg-pallete-light py-8'>
 			<div className='mx-auto flex flex-col-reverse gap-3 justify-center md:flex-row md:justify-between max-w-3xl'>
 				<p className='text-lg text-center font-semibold'>
-					© {new Date().getFullYear()} Juanmo.dev
+					© {new Date().getFullYear()} Juandevelop.com
 				</p>
 				<div>
 					<ul className='flex gap-3 justify-center items-center text-step-1'>
