@@ -44,7 +44,7 @@ export const Contact = () => {
 								name='email'
 								value={values.email}
 								onChange={handleInputChange}
-								type='text'
+								type='email'
 								className='border outline-none border-pallete-light-gray rounded-md w-full p-2 mb-4 placeholder:text-sm placeholder:text-pallete-light-gray hover:border-pallete-gray transition-all duration-300 ease-in-out'
 								placeholder='Correo electrónico'
 							/>

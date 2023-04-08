@@ -54,12 +54,11 @@ export const Hero = () => {
 									</a>
 								</li>
 							</ul>
-							<button
-								onClick={() =>
-									window.open(
-										'https://drive.google.com/file/d/1gUgacjyr-a5Z9P1hFwlQy1PdDdm3f6ta/view?usp=share_link'
-									)
-								}
+							<a
+								href='/Juan-Morales_CV.pdf'
+								title='Descargar CV'
+								download={true}
+								target='_blank'
 								className='text-step--1 font-lato flex shadow-lg px-2 py-2 items-center gap-2 rounded-md bg-black text-white hover:shadow-xl transition-all duration-300 ease-in-out'
 							>
 								<p>Descargar CV</p>
@@ -77,7 +76,7 @@ export const Hero = () => {
 										d='M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3'
 									/>
 								</svg>
-							</button>
+							</a>
 						</div>
 					</div>
 				</Fade>
