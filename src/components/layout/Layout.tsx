@@ -13,7 +13,7 @@ export const Layout: React.FunctionComponent<React.PropsWithChildren> = ({ child
 			<Footer />
 			<ToastContainer
 				autoClose={3000}
-				position='bottom-right'
+				position='bottom-left'
 				draggable
 				pauseOnFocusLoss={false}
 			/>

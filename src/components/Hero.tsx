@@ -55,7 +55,7 @@ export const Hero = () => {
 								</li>
 							</ul>
 							<a
-								href='/Juan-Morales_CV.pdf'
+								href='/docs/Juan-Morales_CV.pdf'
 								title='Descargar CV'
 								download={true}
 								target='_blank'
