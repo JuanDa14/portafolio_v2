@@ -5,10 +5,9 @@ type ServerError = { errors: { message: string; field: string }[] };
 
 export const sendEmail = async <T>(values: T) => {
 	try {
-		// const { data } = await axios.post(`${import.meta.env.VITE_API_URL}/contact`, values);
+		const { data } = await axios.post(`${import.meta.env.VITE_API_URL}/contact`, values);
 
-		// toast.success(data.message);
-		toast.success('Mensaje enviado correctamente.');
+		toast.success(data.message);
 	} catch (error) {
 		if (axios.isAxiosError(error)) {
 			const serverError = error as AxiosError<ServerError>;
