@@ -164,6 +164,29 @@ export const projects = [
 	},
 ];
 
+export const socials = [
+	{
+		title: 'Linkedin',
+		href: 'https://www.linkedin.com/in/juan-david-morales-paredes-617342224',
+		icon: 'linkedin',
+	},
+	{
+		title: 'Github',
+		href: 'https://github.com/JuanDa14',
+		icon: 'github',
+	},
+	{
+		title: 'Instagram',
+		href: 'https://www.instagram.com/ju4ndevelop/',
+		icon: 'instagram',
+	},
+	{
+		title: 'Facebook',
+		href: 'https://www.facebook.com/juandavid.moralesparedes',
+		icon: 'facebook',
+	},
+];
+
 export const InitialStateContactForm = {
 	name: '',
 	subject: '',

@@ -6,6 +6,12 @@ main {
 	overflow-y: hidden;
 }
 
+*,
+*::after,
+*::before {
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
 .Toastify__toast-body {
 	color: #000000;
 	text-align: center;

@@ -5,3 +5,4 @@ export * from './Header';
 export * from './Image';
 export * from './Loader';
 export * from './Lottie';
+export * from './ModeSwitch';

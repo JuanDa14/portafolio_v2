@@ -9,7 +9,7 @@ export const Layout: React.FunctionComponent<React.PropsWithChildren> = ({ child
 	return (
 		<div className={`${isLoading ? 'hidden' : 'flex flex-col'}`}>
 			<Header />
-			<main className={`flex-grow`}>{children}</main>
+			<main className={`flex-grow dark:bg-dark-container`}>{children}</main>
 			<Footer />
 			<ToastContainer
 				autoClose={3000}
