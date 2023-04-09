@@ -35,8 +35,12 @@ export const About = () => {
 					</h2>
 					<ul className='flex flex-wrap text-step--1 p-2 font-code'>
 						{abilities.map((ability) => (
-							<li key={ability.name} className='px-1 bg-blue-500 rounded-lg text-white m-1'>
-								{ability.name}
+							<li
+								key={ability.name}
+								className='px-1 bg-blue-500 rounded-lg text-white m-1 flex items-center gap-2'
+							>
+								<i className={`fa-brands fa-${ability.icon}`}></i>
+								<span>{ability.name}</span>
 							</li>
 						))}
 					</ul>

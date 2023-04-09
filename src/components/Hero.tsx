@@ -25,7 +25,10 @@ export const Hero = () => {
 						<div className='flex justify-between items-center mt-4 md:mt-0'>
 							<ul className='flex gap-2 items-center text-step-1'>
 								{socials.map(({ href, icon, title }) => (
-									<li className='hover:scale-110 transition-all duration-300 ease-in-out'>
+									<li
+										className='hover:scale-110 transition-all duration-300 ease-in-out'
+										key={title}
+									>
 										<a title={title} href={href} target='_blank'>
 											<i
 												className={`fa-brands fa-${icon} text-black dark:text-white`}
