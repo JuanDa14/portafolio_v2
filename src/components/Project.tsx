@@ -5,8 +5,8 @@ export const Project = () => {
 	return (
 		<section className='bg-pallete-light dark:bg-dark-container' id='proyectos'>
 			<div className='px-5 py-10 md:px-3 max-w-3xl mx-auto'>
-				<h2 className='text-step-1 text-black dark:text-white uppercase font-bold mb-4 border-b-2 border-black py-5 dark:border-gray-100'>
-					Experiencia ☕
+				<h2 className='text-step-1 text-black dark:text-white uppercase font-bold mb-4 border-black py-5 dark:border-gray-100'>
+					Experiencia 
 				</h2>
 				<ul className='grid grid-cols-fit-250 gap-3 mt-10'>
 					<Fade triggerOnce cascade damping={0.1}>

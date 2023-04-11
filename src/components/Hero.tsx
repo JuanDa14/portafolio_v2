@@ -9,7 +9,7 @@ export const Hero = () => {
 			id='inicio'
 		>
 			<div className='absolute top-1/2 left-1/2 sm:left-1/3 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-br from-blue-500 to-transparent opacity-50 rounded-full blur-[45px] h-32 w-32'></div>
-			<div className='px-5 flex text-black flex-col-reverse sm:flex-row justify-center gap-10 items-center max-w-4xl mx-auto h-full'>
+			<div className='px-5 flex text-black flex-col-reverse sm:flex-row justify-center md:gap-10 items-center max-w-4xl mx-auto h-full'>
 				<Fade direction='left' triggerOnce>
 					<div>
 						<h1 className='text-step-4 font-bold bg-gradient-to-r from-blue-500 to bg-cyan-500 bg-clip-text text-transparent '>
@@ -66,10 +66,10 @@ export const Hero = () => {
 				<Fade direction='right' triggerOnce>
 					<div>
 						<Lottie
-							src='/lottie/hero.json'
+							src='/lottie/hero2.json'
 							autoplay
 							loop
-							className='w-full h-full max-w-[15rem] sm:max-w-3xl '
+							className='w-full h-full max-w-xs sm:w-80 md:w-96 sm:max-w-3xl'
 						/>
 					</div>
 				</Fade>

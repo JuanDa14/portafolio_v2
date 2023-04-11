@@ -9,8 +9,8 @@ export const Contact = () => {
 	return (
 		<Fade triggerOnce className='py-10 mb-4'>
 			<section className='px-5 md:px-3 max-w-3xl mx-auto' id='contacto'>
-				<h2 className='text-step-1 uppercase text-black dark:text-white  font-bold mb-4 border-b-2 border-gray-500 py-5 dark:border-gray-100'>
-					Contacto 📩
+				<h2 className='text-step-1 uppercase text-black dark:text-white  font-bold mb-4 border-gray-500 py-5 dark:border-gray-100'>
+					Contacto
 				</h2>
 				<div className='text-step--1'>
 					<div>
