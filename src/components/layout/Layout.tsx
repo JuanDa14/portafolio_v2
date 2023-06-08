@@ -7,7 +7,7 @@ export const Layout: React.FunctionComponent<React.PropsWithChildren> = ({ child
 	const { isLoading } = useContext(UIContext);
 
 	return (
-		<div className={`${isLoading ? 'hidden' : 'flex flex-col'}`}>
+		<div className={`${isLoading ? 'hidden' : 'flex flex-col fadeInAndOut'}`}>
 			<Header />
 			<main className={`flex-grow dark:bg-dark-container`}>{children}</main>
 			<Footer />

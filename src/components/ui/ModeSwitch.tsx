@@ -2,15 +2,7 @@ import { useContext, useEffect, useState } from 'react';
 import { UIContext } from '../../context';
 
 export const ModeSwitch = () => {
-	const { theme, toggleTheme, setTheme } = useContext(UIContext);
-
-	useEffect(() => {
-		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-			setTheme('dark');
-		} else {
-			setTheme('light');
-		}
-	}, []);
+	const { theme, toggleTheme } = useContext(UIContext);
 
 	useEffect(() => {
 		if (theme === 'dark') {

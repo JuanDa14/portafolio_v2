@@ -50,9 +50,22 @@ main {
 }
 
 ::-webkit-scrollbar {
-	width: 0.3rem;
+	width: 0.5rem;
 }
 
 ::-webkit-scrollbar-track {
 	background: #1b1b2f;
+}
+
+.fadeInAndOut {
+	animation: fadein 0.5s linear 1, fadeout 0.5s linear 5s 1 forwards;
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }

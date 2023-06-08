@@ -59,7 +59,7 @@ export const Header = () => {
 					</svg>
 				</a>
 				<nav>
-					<ul className='flex gap-6 text-sm font-medium'>
+					<ul className='flex gap-3 text-sm font-medium'>
 						<li className='py-4 transition-colors duration-300 ease-in-out'>
 							<a
 								title='Inicio'

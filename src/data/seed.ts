@@ -1,4 +1,11 @@
-export const abilities = [
+import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram, AiFillFacebook } from 'react-icons/ai';
+
+export const abilities: {
+	name: string;
+	type: 'Frontend' | 'Backend' | 'Database';
+	level: 'Básico' | 'Intermedio' | 'Avanzado';
+	icon: string;
+}[] = [
 	{
 		name: 'Html',
 		type: 'Frontend',
@@ -28,18 +35,6 @@ export const abilities = [
 		type: 'Frontend',
 		level: 'Intermedio',
 		icon: 'bootstrap',
-	},
-	{
-		name: 'Styled Components',
-		type: 'Frontend',
-		level: 'Intermedio',
-		icon: 'png',
-	},
-	{
-		name: 'Sass',
-		type: 'Frontend',
-		level: 'Intermedio',
-		icon: 'sass',
 	},
 	{
 		name: 'TailwindCss',
@@ -113,7 +108,7 @@ export const projects = [
 	{
 		title: 'Frontend Developer',
 		description:
-			'Actualmente trabajo en el desarrollo de módulos en diferentes aplicaciones web para la empresa FMSAC.',
+			'Actualmente trabajo en el desarrollo de módulos en diferentes tipos de aplicaciones web para la empresa FMSAC. Aplicando buenas prácticas y asegurando la calidad del código.',
 		technologies: ['PHP', 'Html', 'Css', 'JavaScript', 'Bootstrap', 'MySQL'],
 		imageUrl: 'proyecto-2',
 		githubUrl: '#',
@@ -125,7 +120,7 @@ export const projects = [
 		title: 'Freelancer',
 		description:
 			'Brinde mantenimiento a una aplicación web, mejorando su rendimiento, agregando nuevas funcionalidades y asegurando la seguridad de la misma.',
-		technologies: ['Laravel', 'PHP', 'Html', 'Css', 'JavaScript', 'Bootstrap', 'MySQL'],
+		technologies: ['Laravel', 'Html', 'Css', 'JavaScript', 'Bootstrap', 'MySQL'],
 		imageUrl: 'proyecto-2',
 		githubUrl: '#',
 		websiteUrl: 'https://www.yahuahbible.com',
@@ -136,15 +131,7 @@ export const projects = [
 		title: 'Fullstack Developer',
 		description:
 			'Creación de una aplicación de gestión de proyectos. Permite crear proyectos, agregar tareas, asignarlas a usuarios y cambiar su estado.',
-		technologies: [
-			'React',
-			'JavaScript',
-			'TailwindCss',
-			'NodeJs',
-			'MongoDB',
-			'Google Auth',
-			'Facebook Auth',
-		],
+		technologies: ['React', 'JavaScript', 'TailwindCss', 'NodeJs', 'MongoDB'],
 		imageUrl: 'proyecto-1',
 		githubUrl: 'https://github.com/JuanDa14/calendar-front',
 		websiteUrl: 'https://calendario-app.vercel.app',
@@ -168,22 +155,22 @@ export const socials = [
 	{
 		title: 'Linkedin',
 		href: 'https://www.linkedin.com/in/juan-david-morales-paredes-617342224',
-		icon: 'linkedin',
+		Icon: AiFillLinkedin,
 	},
 	{
 		title: 'Github',
 		href: 'https://github.com/JuanDa14',
-		icon: 'github',
+		Icon: AiFillGithub,
 	},
 	{
 		title: 'Instagram',
 		href: 'https://www.instagram.com/ju4ndevelop/',
-		icon: 'instagram',
+		Icon: AiOutlineInstagram,
 	},
 	{
 		title: 'Facebook',
-		href: 'https://www.facebook.com/juandavid.moralesparedes',
-		icon: 'facebook',
+		href: '#',
+		Icon: AiFillFacebook,
 	},
 ];
 

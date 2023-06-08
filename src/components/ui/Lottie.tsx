@@ -18,7 +18,7 @@ export const Lottie: FC<Props> = ({ src, className, loop = true, autoplay = true
 				if (e === 'load') {
 					setTimeout(() => {
 						completeLoading();
-					}, 2000);
+					}, 1000);
 				}
 			}}
 			loop={loop}
